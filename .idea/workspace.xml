@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9511c43-3255-4b48-a3bd-ec155b0adf39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmAnalyzer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssignmentOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Declaration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IndexOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Indexing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicalOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiLineStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingleLineStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SymjaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Variable.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3Bz1mbqShXdERHdNiLEpaLUYUOu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SymjaTest.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/john/IdeaProjects/AlgorithmAnalyzer/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9511c43-3255-4b48-a3bd-ec155b0adf39" name="Changes" comment="" />
+      <created>1775477248277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775477248277</updated>
+    </task>
+    <servers />
+  </component>
+</project>
