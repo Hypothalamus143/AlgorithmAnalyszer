@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import org.matheclipse.core.eval.ExprEvaluator;
 import org.matheclipse.core.expression.F;
@@ -33,7 +34,19 @@ public class MultiLineStatement extends Statement{
         ExprEvaluator evaluator = new ExprEvaluator(false, (short) 100);
         String res = "0";
         for(Statement s : statements)
-            res = evaluator.eval(res+s.getRuntime()).toString();
-        return res;
+            res = evaluator.eval("("+res + ") + (" + s.getRuntime()+")").toString();
+        return evaluator.eval("Expand("+ res +")").toString();
+    }
+    public  void addStatement(Statement statement){
+        statements.add(statement);
+        statement.setVariables(variables);
+//        System.out.println(variables == null);
+    }
+
+    @Override
+    public void setVariables(HashSet<Variable> variables) {
+        super.setVariables(variables);
+        for(Statement s : statements)
+            s.setVariables(variables);
     }
 }

@@ -11,6 +11,10 @@ public abstract class Operation extends Expression{
 
     public int getRuntime(){return 1;}
 
+    public Expression getExpression1() {
+        return expression1;
+    }
+
     public Operator getOperator() {
         return operator;
     }

@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class Value<T> extends Expression{
     protected T elem;
     public Value(T elem){
@@ -15,7 +17,18 @@ public class Value<T> extends Expression{
     }
 
     @Override
+    public String checkedToString(HashSet<Variable> variables) {
+        return toString();
+    }
+
+    @Override
     public int getRuntime() {
         return 0;
     }
+
+    @Override
+    public String simplifiedToString() {
+        return toString();
+    }
+
 }

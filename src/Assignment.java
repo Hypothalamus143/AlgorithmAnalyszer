@@ -1,4 +1,4 @@
-public class Assignment extends SingleLineStatement{
+public abstract class Assignment extends SingleLineStatement implements Incrementable{
     private Variable variable;
     private AssignmentOperator operator;
 
@@ -6,6 +6,15 @@ public class Assignment extends SingleLineStatement{
         super(expression);
         this.variable = variable;
         this.operator = operator;
+    }
+
+    @Override
+    public String getRuntime() {
+        return super.getRuntime() + "+1";
+    }
+
+    public Variable getVariable() {
+        return variable;
     }
 
     @Override

@@ -1,20 +1,46 @@
-public class Variable<T> extends Value{
+import java.util.HashSet;
+
+public class Variable extends Expression{
     private String name;
-    public Variable(String name, T elem){
-        super(elem);
+    private Expression expression;
+    public Variable(String name, Expression expression){
+        super();
         this.name = name;
+        this.expression = expression;
     }
     public Variable(String name){
         super();
         this.name = name;
+        this.expression = null;
     }
-    public void setElem(T elem){
-        this.elem = elem;
+    public void setExpression(Expression expression) {
+        this.expression = expression;
     }
 
     public String toString() {
-        if(elem == null)
+        return name;
+    }
+    public String simplifiedToString(){
+        if(expression == null)
             return name;
-        else return super.toString();
+        return expression.toString();
+    }
+
+    public Expression getExpression() {
+        if(expression == null)
+            return this;
+        return expression;
+    }
+
+    @Override
+    public String checkedToString(HashSet<Variable> variables) {
+        if(variables.contains(this))
+            return toString();
+        else return simplifiedToString();
+    }
+
+    @Override
+    public int getRuntime() {
+        return 0;
     }
 }

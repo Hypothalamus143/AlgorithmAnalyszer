@@ -1,12 +1,12 @@
 public class ForLoop extends Loop{
-    public ForLoop(Assignment assignment, LogicalOperation condition, Statement increment) {
-        super(assignment, condition, increment);
+    public ForLoop(SingleLineStatement statement, Bound condition, SingleLineStatement increment) {
+        super(statement, condition, increment);
     }
 
     @Override
     public String toString() {
         String res = "";
-        res+="for("+assignment.toString()+condition.toString()+increment.toString()+")";
+        res+="for("+statement.toString()+";"+condition.toString()+";"+increment.toString()+")";
         return res+super.toString();
     }
 

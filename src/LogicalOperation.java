@@ -1,5 +1,5 @@
-public class LogicalOperation extends Operation {
-    public LogicalOperation(Operator operator, Expression expression1) {
-        super(operator, expression1);
+public class LogicalOperation extends Binary {
+    public LogicalOperation(Operator operator, Expression expression1, Expression expression2) {
+        super(operator, expression1, expression2);
     }
 }
