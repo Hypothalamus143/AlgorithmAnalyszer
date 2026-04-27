@@ -40,7 +40,9 @@ public class Main {
         //we add variable j to the first for loop's body
         f1.addStatement(d4);
         //we make another for loop with the iterator j
-        ForLoop f2 = new ForLoop(new Initialization(d4.getVariable(), new Value<Integer>(0)), new RightUpperBound(d4.getVariable(), new Binary(new Operator("+"),d2.getVariable(), new Value<Integer>(0)), false), new AdditiveAssignment(d4.getVariable(), new Value<Integer>(1)));
+        //this time, instead of simply making the bound a variable, we can make it an expression using a binary operation
+        //in this case we make the upper limit j < i+1
+        ForLoop f2 = new ForLoop(new Initialization(d4.getVariable(), new Value<Integer>(0)), new RightUpperBound(d4.getVariable(), new Binary(new Operator("+"),d2.getVariable(), new Value<Integer>(1)), false), new AdditiveAssignment(d4.getVariable(), new Value<Integer>(1)));
         //we make another for loop with the iterator k
         ForLoop f3 = new ForLoop(new Initialization(d5.getVariable(), new Value<Integer>(0)), new RightUpperBound(d5.getVariable(), d4.getVariable(), false), new AdditiveAssignment(d5.getVariable(), new Value<Integer>(1)));
         //we put the second for loop inside the first for loop
@@ -51,7 +53,7 @@ public class Main {
         f2.addStatement(d5);
         //we add the third for loop inside the second for loop
         f2.addStatement(f3);
-        //we make simple statement sum++
+        //we make simple statement sum++ by making a Unary Operation. isPrefix false because we want it to be postfix
         f3.addStatement(new SingleLineStatement(new Unary(new Operator("++"), d3.getVariable(), false)));
         //we can print the function
         System.out.println(sum);
